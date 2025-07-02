@@ -9,11 +9,16 @@
     background-size: cover;
     height: 109vh;
 }
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
+
 .icon{
     width: 200px;
     float: left;
